@@ -5,3 +5,4 @@ var myPix = new Array("2B67.png","3G34.png","4B6K.png","5R8Z.png","6JJ4.png","8U
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
      document.getElementById("myPicture").src = myPix[randomNum];
+}
