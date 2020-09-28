@@ -6,13 +6,28 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script>
-  function showAlert() {
-    alert ("Captcha succesfully submitted!");
-  }
-  </script>
-<form name="captchaform">
-    <img src="test.jpg" width="200px" height="100px"><br>
-    <label for="captcha">enter captcha</label>
-    <input type="text" class="form-control" id="captcha" name="captcha" placeholder="captcha">
-    <button onClick=showAlert() type="submit" name="button" class="btn btn-primary">Submit</button>
+    function showAlert() {
+      alert ("Captcha succesfully submitted!");
+    }
+</script>
+<br><br>
+<div class="card container text-center col-sm-6">
+  <div class="card-header">
+   <H2> DEMONSTRATION OF CAPTCHA BREAKING MODEL </H2>
+  </div>
+  <form name="captchaform">
+    <br>
+    <br>
+    <label for="captcha"><h3>Enter the captcha into the text field</h3></label>
+    <br>
+    <img src="C:\Users\SATVIKA\Desktop\solving_captchas_code_examples\solving_captchas_code_examples\generated_captcha_images\2AEF.png" width="400px" height="200px">
+    <br>
+    <br>
+    <input type="text" class="form-control" id="captcha" placeholder="captcha">
+    <br>
+    <button onClick=showAlert() type="submit" class="btn btn-primary">Submit</button>
   </form>
+  <div class="card-footer text-muted">
+      implemented using selenium and beautiful soup libraries
+  </div>
+</div>
